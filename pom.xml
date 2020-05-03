@@ -71,6 +71,14 @@
 					<propertyFile>src/main/resources/application.yml</propertyFile>
 					<changeLogFile>src/main/resources/db/db.changelog-master.xml</changeLogFile>
 				</configuration>
+<!--				<executions>-->
+<!--					<execution>-->
+<!--						<phase>process-resources</phase>-->
+<!--						<goals>-->
+<!--							<goal>update</goal>-->
+<!--						</goals>-->
+<!--					</execution>-->
+<!--				</executions>-->
 			</plugin>
 		</plugins>
 	</build>
